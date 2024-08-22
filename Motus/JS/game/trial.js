@@ -173,7 +173,6 @@ export function checkSolution() {
     } else {
 
       reportResult(loss);
-      updateScore();
     }
   } else {
 
