@@ -1,0 +1,176 @@
+#motus_game_container,
+.trial,
+.letter_container {
+  display: flex;
+}
+
+#motus_game_container {
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.letter_container,
+.trial,
+.letter_input_container {
+  margin: 1px;
+}
+
+.letter_container,
+.letter_input_container {
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  width: 80px;
+  height: 80px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius:5%;
+  margin:3px;
+  margin-bottom:5px;
+}
+
+
+.letter_input_container {
+  outline: none;
+  border: 0px solid;
+  width: 80px;
+  height: 80px;
+  padding: 0px;
+}
+
+.first_letter {
+  background-color: #329932!important;
+  background:#329932!important;
+}
+
+.first_letter, .letter_input_container{
+  border:1px solid white!important;
+}
+
+.card {
+  height:100%;
+}
+.icon {
+  width: 50px;
+  margin: 10px 10px 10px 10px
+}
+
+.icon_btn {
+  width: 30px;
+  margin: 10px 0px 10px 5px
+}
+
+.icon_difficulty {
+  width: 35px;
+}
+
+
+.custom-popover-easy {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: #157347;
+  --bs-popover-header-bg: #157347;
+  --bs-popover-header-color: white;
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+}
+
+.custom-popover-medium {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: #FFCA2C;
+  --bs-popover-header-bg: #FFCA2C;
+  --bs-popover-header-color: white;
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+}
+
+.custom-popover-hard {
+  --bs-popover-max-width: 200px;
+  --bs-popover-border-color: #BB2D3B;
+  --bs-popover-header-bg: #BB2D3B;
+  --bs-popover-header-color: white;
+  --bs-popover-body-padding-x: 1rem;
+  --bs-popover-body-padding-y: .5rem;
+}
+
+.btn-warning:hover, .btn-danger:hover, .btn-success:hover {
+  border-color:white!important;
+  color:white!important;
+  background:rgba(0, 0, 0, .3)!important ;
+
+}
+
+.btn-warning:not(:hover),.btn-danger:not(:hover),.btn-success:not(:hover) {
+  color:white!important;
+ border:1px solid white!important;
+}
+
+
+#easy_btn > svg, #medium_btn > svg, #hard_btn > svg {
+  transition:all 0.15s ease-in-out;
+
+}
+
+/*
+#easy_btn:hover > svg, #medium_btn:hover > svg, #hard_btn:hover > svg {
+  transition:all 0.15s ease-in-out;
+  fill:white!important;
+}
+*/
+
+.difficulty_level {
+  margin-right: 10px;
+}
+
+#motus_game_container {
+  opacity: 0;
+
+  -webkit-transition: opacity .4s ease-in;
+     -moz-transition: opacity .4s ease-in;
+      -ms-transition: opacity .4s ease-in;
+       -o-transition: opacity .4s ease-in;
+          transition: opacity .4s ease-in;
+}
+
+#motus_game_container.load {
+  opacity: 1;
+}
+
+.modal-footer, .modal-body{
+border:none!important;
+}
+
+
+
+.custom-popover-easy,.custom-popover-medium,.custom-popover-hard {
+  margin-top:7.5px!important;
+}
+
+input, .first_letter, .letter_container {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Nunito";
+}
+
+hr { 
+  width: 100%; 
+  margin-left: 0;
+  margin-right: 0; }
+
+
+  a {
+    text-decoration: none!important;
+  }
+  
+  .modal-content, #difficulty_box {
+
+    background:  rgba(238,174,202,.5)!important;
+    border: 1px solid white;
+   
+  }
+
+   .modal-header, .modal-body,.modal-footer {
+    background:rgba(0, 0, 0, 0.4)!important ;
+    color: white!important;
+  }

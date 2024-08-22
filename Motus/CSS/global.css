@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(195,180,217,1) 78%, rgba(202,226,255,1) 100%);
+  }
+
+  button.menu, button.login, a.page-link, .card {
+    background:rgba(0, 0, 0, .3)!important ;
+    border: 1px solid white!important;
+    color: white!important;
+  }
+  
+  button.menu:hover, button.login:hover, a.page-link:hover, .difficulty_level:hover {
+    background:rgba(255, 255, 255, .1)!important ;
+    border: 1px solid white!important;
+    color: white!important;
+    box-shadow: 0px 0px 10px white;
+  }
+
+  .btn:focus, .page-link:focus, a, a:focus, input, input:active- {
+    outline: none!important;
+    box-shadow: none!important;
+  }
+
+  .difficulty_level:hover { 
+    background:rgba(0, 0, 0, .3)!important ;
+  }

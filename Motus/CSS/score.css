@@ -1,0 +1,18 @@
+@import url(global.css);
+
+.table {
+  border: 1px solid white;
+  box-shadow: 0px 0px 20rem white;
+}
+
+td,
+th {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: white !important;
+  font-size: 20px;
+  border: 1px solid white;
+}
+
+td.score {
+    color:yellow!important;
+}

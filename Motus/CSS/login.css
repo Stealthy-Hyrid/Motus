@@ -1,0 +1,11 @@
+@import url(global.css);
+
+
+.formulaire {
+     background-color: rgba(0, 0, 0, 0.4);
+ 
+    border: 1px solid white;
+    border-radius : 5%;
+    color:white!important;
+    box-shadow: 0px 0px 20rem white;
+}
