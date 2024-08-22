@@ -70,9 +70,10 @@ if (array_key_exists('classement', $_GET)) {
 
         <!-- Navigation du tableau -->
         <div class="row w-75 d-flex flex-row mb-4">
-
+            
+            <!-- Idée pas encore mise en place -->
             <div class="col d-flex justify-content-center align-items-center"><button class="btn menu"
-                    onclick="window.location.href='http://localhost/php/Motus/motus.php'">Chercher un pseudo</button>
+                    onclick="window.location.href='http://localhost/php/Motus/motus.php'" disabled>Chercher un pseudo</button>
             </div>
             <div class="col mt-1 d-flex justify-content-center align-items-center">
                 <ul class="pagination pagination">
