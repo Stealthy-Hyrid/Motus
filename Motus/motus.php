@@ -153,19 +153,18 @@ if (isset($_COOKIE["length"])) {
                     <div class="card">
 
                         
-                            <h5 class="card-title fs-5"></h5>
-                            <p class="card-text"></p>
-                            <div class="d-flex flex-column align-items-center justify-content-center" id="game_buttons">
+                            
+                            <div class="card-body d-flex flex-column align-items-center justify-content-center" id="game_buttons">
                                 <div class="row">
                                     <button type="button" id="game_start_btn"class="btn btn btn-primary menu">Commencer</button>
                                     <button type="button" id="game_check_btn" class="btn btn btn-primary d-none menu">Vérifier la réponse</button>
                                 </div>
                                     <hr>
-                            <div class="row flex-row gap-3">
+                                <div class="row flex-row gap-3">
                     
-                                <button type="button" id="game_logout_btn" class="btn btn-warning col btn menu">Déconnexion</button>
-                                <button type="button" id="game_reset_btn" class="btn btn-warning col btn menu">Réinitialiser</button>
-                            </div>
+                                    <button type="button" id="game_logout_btn" class="btn btn-warning col btn menu">Déconnexion</button>
+                                    <button type="button" id="game_reset_btn" class="btn btn-warning col btn menu">Réinitialiser</button>
+                                </div>
                             </div>
 
                         
